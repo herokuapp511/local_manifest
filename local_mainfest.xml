@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote  name="salik"
-                fetch="https://github.com/P-Salik" />
-	<remote name="agrezia"
-		fetch="https://github.com/Fraschze97" />
-	<remote name="sakthivel"
-		fetch="https://github.com/SparXFusion" />
-	<remote name="carnage"
-		fetch="https://github.com/cArN4gEisDeD" />
+        <remote  name="hyper"
+                fetch="https://github.com/HyperTeam" />
 
-        <!-- Device Sauce -->
-	<project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="eleven" clone-depth="1" />
-	<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="sakthivel" revision="eleven" clone-depth="1" />
-
+        <!-- Device Souce -->
+	<project path="device/realme/samurai" name="android_device_realme_samurai" remote="hyper" revision="lineage-20" clone-depth="1" />
+	<project path="vendor/realme/samurai" name="proprietary_vendor_realme_samurai" remote="hyper" revision="lineage-20" clone-depth="1" />
+	<project path="kernel/realme/sm8150" name="android_kernel_realme_sm8150" remote="hyper" revision="lineage-20" clone-depth="1" />
+	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="hyper" revision="lineage-20" clone-depth="1" />
+	
 </manifest>
